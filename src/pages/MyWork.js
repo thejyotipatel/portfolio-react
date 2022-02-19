@@ -16,7 +16,7 @@ const MyWork = () => {
           These are some of my project that i have worked on and check out my
           all projects on
           <a
-            className='text-[#00f] underline font-medium ml-2'
+            className='text-main-color underline font-medium ml-2'
             href='https://github.com/jyotip101/'
             target='_blank'
             rel='noopener noreferrer'

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='contact-center'>
+    <div className='contact-center bg-main-color-200 '>
       <p className='top'>
         <a href='#home'>Top</a>
       </p>

@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-
+import { useContextGlobal } from '../context/appContext'
 import MobileMenu from './MobileMenu'
 const headrData = [
   {
@@ -28,7 +27,7 @@ const headrData = [
   },
 ]
 const Header = () => {
-  const [isMenu, setIsMenu] = useState(true)
+  const { menu, menuState } = useContextGlobal()
 
   return (
     <div className=' flex justify-between items-center mt-4  '>
@@ -36,7 +35,7 @@ const Header = () => {
         <a
           href='/'
           translate='no'
-          className=' font-[600] text-[24px] capitalize m-2 text-[#0000ff] '
+          className=' font-[600] text-[24px] capitalize m-2 text-main-color '
         >
           Jyoti Patel
         </a>
@@ -49,7 +48,7 @@ const Header = () => {
               <li key={id} className='sm:mx-4 font-medium uppercase  '>
                 <a
                   href={url}
-                  className='text-[#000] text-[16px] hover:text-[#0000ff] transition '
+                  className='text-[#000] text-[16px] hover:text-main-color transition '
                 >
                   {text}
                 </a>
@@ -61,17 +60,17 @@ const Header = () => {
 
       <div className='m-4 fixed right-0 sm:m-0 z-20 sm:hidden flex outline-none '>
         <button
-          onClick={() => setIsMenu(!isMenu)}
-          className={`hover:text-[#00f] outline-none p-4 bg-[#00000008]  transition ${
-            !isMenu && 'text-[#fff] hover:text-[#fff]'
+          onClick={menuState}
+          className={`hover:text-main-color outline-none p-2 bg-[#00000008]  transition ${
+            menu && 'text-[#fff] hover:text-main-color-100 bg-transparent '
           } `}
         >
-          <i className='material-icons  font-bold text-[36px]  '>
-            {isMenu ? 'menu' : 'close'}
+          <i className='material-icons  font-bold text-[36px]     '>
+            {menu ? 'close' : 'menu'}
           </i>
         </button>
       </div>
-      {!isMenu && <MobileMenu headrData={headrData} />}
+      {menu && <MobileMenu headrData={headrData} />}
     </div>
   )
 }

@@ -28,7 +28,7 @@ font-size:1-36px,2-24px,3-16px
 <!-- # main-blue #3ca7db -->
 <!-- 2-white #f8f8f8 -->
 <!-- footer #f5f7f9 -->
-
+<!--
 # pages
 
 1. home
@@ -40,4 +40,4 @@ font-size:1-36px,2-24px,3-16px
 7. Footer
 8. Mobile menu
 
-#
+# -->

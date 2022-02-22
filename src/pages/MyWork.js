@@ -5,7 +5,7 @@ import ProjectLists from '../components/ProjectLists'
 const MyWork = () => {
   return (
     <div id='mywork' className='m-2 mt-16 '>
-      <p className=' lowercase flex justify-start items-center font-medium text-[#b32442] mb-6 '>
+      <p className=' lowercase flex justify-start items-center font-medium text-main-color-2 mb-6 '>
         my work
         <span className=' ml-2 font-normal text-3xl material-icons '>
           trending_flat
@@ -16,7 +16,7 @@ const MyWork = () => {
           These are some of my project that i have worked on and check out my
           all projects on
           <a
-            className='text-main-color underline font-medium ml-2'
+            className='text-main-color underline font-medium ml-2 hover:no-underline'
             href='https://github.com/jyotip101/'
             target='_blank'
             rel='noopener noreferrer'

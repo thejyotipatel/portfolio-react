@@ -14,10 +14,10 @@ const Home = () => {
         <h1 className='line-heights-[1.125] text-[36px] uppercase font-[400] text-main-color'>
           I'M JYOTI PATEL
         </h1>
-        <p className=' max-w-[400px] w-full text-slate-900 font-[600] line-heights-[1.5] text-[16px] '>
+        {/* <p className=' max-w-[400px] w-full text-slate-900 font-[600] line-heights-[1.5] text-[16px] '>
           I'm excited to create something great with my passion by putting my
           ideas to practice.
-        </p>
+        </p> */}
         {/* <div className='my-8 flex flex-wrap '>
           <a
             href='#about'

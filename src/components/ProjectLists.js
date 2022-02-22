@@ -37,7 +37,7 @@ const ProjectLists = ({ item }) => {
           </a>
           <a
             href={sourceCode}
-            className='px-4  py-2 my-2 ml-0 text-[#b32442]   '
+            className='px-4  py-2 my-2 ml-0 text-main-color-2   '
             target='_blank'
             rel='noopener noreferrer'
           >

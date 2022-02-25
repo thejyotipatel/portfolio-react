@@ -14,7 +14,7 @@ const About = () => {
         <img
           src={pic}
           alt='my pic'
-          className=' mx-auto rounded-[100%] max-w-[300px] m-8 shadow-[0_2px_6px_0_hsla(0,0%,0%,0.2)] '
+          className=' mx-auto rounded-[100%] sm:max-w-[300px] m-8 shadow-[0_2px_6px_0_hsla(0,0%,0%,0.2)] '
         />
         <div className=''>
           <p className='mb-8 mx-4 max-w-lg  text-slate-700 font-[600] line-heights-[1.5] text-[16px]'>

@@ -1,4 +1,5 @@
 import React from 'react'
+import EmailBox from '../components/EmailBox'
 
 const Contact = () => {
   return (
@@ -10,15 +11,14 @@ const Contact = () => {
         </span>
       </p>
 
-      <p className='font-normal text-center  text-[24px] line-heights-[1.5] text-gray-700   '>
-        LET'S GET IN TOUCH
-      </p>
       {/* <br /> */}
       {/* Say Hi! or contact me on social media. */}
-      <div className='my-8  '>
-        <p className='text-center mb-2'>
+      <EmailBox />
+      <div className='my-8 p-8 mx-auto max-w-[500px] '>
+        <h1 className='font-normal my-4 text-[24px]'>Find me on</h1>
+        <div className=' mb-2'>
           <a
-            className='text-main-color underline font-medium ml-2 hover:no-underline'
+            className='text-main-color underline font-medium hover:no-underline'
             href='https://github.com/thejyotipatel'
             target='_blank'
             rel='noopener noreferrer'
@@ -33,10 +33,7 @@ const Contact = () => {
           >
             TWITTER
           </a>
-        </p>
-        <p className='text-main-color   font-medium ml-2 text-center '>
-          jyotip99755@gmail.com
-        </p>
+        </div>
       </div>
     </div>
   )

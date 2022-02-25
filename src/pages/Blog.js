@@ -10,7 +10,7 @@ const Blog = () => {
         </span>
       </p>
 
-      <div id='blog' className='  grid sm:grid-cols-2 grid-cols-1 m-4'>
+      <div id='blog' className='  grid sm:grid-cols-2 grid-cols-1 sm:m-4'>
         {blogData.map((item) => {
           const { id, title, description, source, tags, readTime } = item
           return (

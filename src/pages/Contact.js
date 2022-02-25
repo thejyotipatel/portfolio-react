@@ -14,11 +14,11 @@ const Contact = () => {
       {/* <br /> */}
       {/* Say Hi! or contact me on social media. */}
       <EmailBox />
-      <div className='my-8 p-8 mx-auto max-w-[500px] '>
-        <h1 className='font-normal my-4 text-[24px]'>Find me on</h1>
-        <div className=' mb-2'>
+      <div className='my-8 py-8 mx-auto max-w-[500px] '>
+        <h1 className='font-normal my-4 text-center text-[26px]'>Find me on</h1>
+        <div className='text-center mb-2'>
           <a
-            className='text-main-color underline font-medium hover:no-underline'
+            className='text-main-color underline font-medium hover:no-underline mx-2'
             href='https://github.com/thejyotipatel'
             target='_blank'
             rel='noopener noreferrer'

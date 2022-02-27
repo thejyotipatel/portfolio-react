@@ -3,14 +3,14 @@ import { blogData } from '../components/main-blog-data'
 const Blog = () => {
   return (
     <>
-      <p className=' lowercase flex justify-start items-center mt-[50px] font-medium text-main-color-2 mb-6 '>
-        blogs
-        <span className=' ml-2 font-normal text-3xl material-icons '>
-          trending_flat
-        </span>
-      </p>
-
       <div id='blog' className='  grid sm:grid-cols-2 grid-cols-1 sm:m-4'>
+        <p className=' lowercase flex justify-start items-center mt-[50px] font-medium text-main-color-2 mb-6 '>
+          blogs
+          <span className=' ml-2 font-normal text-3xl material-icons '>
+            trending_flat
+          </span>
+        </p>{' '}
+        <br />
         {blogData.map((item) => {
           const { id, title, description, source, tags, readTime } = item
           return (
@@ -48,7 +48,6 @@ const Blog = () => {
             </div>
           )
         })}
-
         <p className='font-medium max-w-lg text-[16px] line-heights-[1.5]  '>
           Check out my all blogs on
           <a

@@ -13,18 +13,6 @@ export default [
   {
     id: 2,
     imgUrl:
-      'https://user-images.githubusercontent.com/66724598/143888624-10299ac2-66de-47aa-b64b-7b7d6199ed40.png',
-    sourceCode: 'https://github.com/thejyotipatel/grocery-bud-react',
-    demo: 'https://thejyotipatel.github.io/grocery-bud-react/',
-    title: 'Grocery Bud',
-    description:
-      'This project is like a to-do list app. Here users can add, edit and delete the items. He can also see notifecation afer any action.',
-    language: ['react', 'CSS'],
-  },
-
-  {
-    id: 3,
-    imgUrl:
       'https://user-images.githubusercontent.com/66724598/147909244-ae9c9db2-cfb7-4130-8525-7e988fccff63.png',
     sourceCode:
       'https://github.com/thejyotipatel/responsive-edie-homepage-in-react',
@@ -32,5 +20,15 @@ export default [
     title: 'Edie Home page',
     description: 'This is a responsive edie homepage.',
     language: ['react', 'SCSS', 'Responsive'],
+  },
+  {
+    id: 3,
+    imgUrl:
+      'https://user-images.githubusercontent.com/66724598/153427323-e8010b41-499c-4964-9adc-69c9b4b37d11.png',
+    demo: 'https://thejyotipatel.github.io/todo-app-in-react/',
+    title: 'Todo app',
+    description:
+      'a Todo list app. Here users can add, delete and filter the todos item. He can also see notifecation afer any action.',
+    language: ['react', 'Tailwind CSS'],
   },
 ]

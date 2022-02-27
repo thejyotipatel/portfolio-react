@@ -25,6 +25,7 @@ export default [
     id: 3,
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/153427323-e8010b41-499c-4964-9adc-69c9b4b37d11.png',
+    sourceCode: 'https://github.com/thejyotipatel/todo-app-in-react',
     demo: 'https://thejyotipatel.github.io/todo-app-in-react/',
     title: 'Todo app',
     description:

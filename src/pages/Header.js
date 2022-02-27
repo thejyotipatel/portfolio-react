@@ -33,7 +33,7 @@ const Header = () => {
     <div className=' flex justify-between items-center mt-4  '>
       <div className='   '>
         <a
-          href='/'
+          href='https://thejyotipatel.github.io/portfolio-react/'
           translate='no'
           className=' font-[600] text-[24px] capitalize m-2 text-main-color '
         >
@@ -61,7 +61,7 @@ const Header = () => {
       <div className='m-4 fixed right-0 sm:m-0 z-20 sm:hidden flex outline-none '>
         <button
           onClick={menuState}
-          className={`hover:text-main-color outline-none p-1 bg-main-color/10  transition ${
+          className={`hover:text-main-color outline-none p-1 inline-flex rounded-sm bg-main-color/10  transition ${
             menu && 'text-[#fff] hover:text-main-color-100 bg-transparent '
           } `}
         >

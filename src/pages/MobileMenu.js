@@ -6,7 +6,7 @@ const MobileMenu = ({ headrData }) => {
   return (
     <div className='left-0 z-10 fixed bg-main-color top-0 w-full h-full  '>
       <ul className='   mt-[20%] flex flex-col justify-start w-fit h-full mx-auto item-center '>
-        <li className=' my-4 font-medium uppercase   transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '>
+        {/* <li className=' my-4 font-medium uppercase   transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '>
           <button
             onClick={menuState}
             className='text-[#fff] text-[1.3rem] flex  justify-start items-center capitalize '
@@ -18,7 +18,7 @@ const MobileMenu = ({ headrData }) => {
               home
             </a>
           </button>
-        </li>
+        </li> */}
         {headrData.map((item) => {
           const { id, text, url, icon } = item
           return (

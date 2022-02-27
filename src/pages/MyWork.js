@@ -17,7 +17,7 @@ const MyWork = () => {
           all projects on
           <a
             className='text-main-color underline font-medium ml-2 hover:no-underline'
-            href='https://github.com/jyotip101/'
+            href='https://github.com/thejyotipatel/'
             target='_blank'
             rel='noopener noreferrer'
           >
